@@ -1,0 +1,53 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37710.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DSCreateKey", "DSCPP\DSCreateKey.vcxproj", "{7244437C-152B-4CC4-8821-DEC164908401}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DSSignFile", "DSCPP\DSSignFile.vcxproj", "{BE0629D8-7151-4ABC-AABF-8D88C1C5A969}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DSCreateKeyPy", "DSPY\DSCreateKey.pyproj", "{AC00B7FC-7835-4195-8629-B3D476F02B2D}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DSSignFilePy", "DSPY\DSSignFile.pyproj", "{A85C6996-8351-44AD-B375-BE7A0D4545D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7244437C-152B-4CC4-8821-DEC164908401}.Debug|x64.ActiveCfg = Debug|x64
+		{7244437C-152B-4CC4-8821-DEC164908401}.Debug|x64.Build.0 = Debug|x64
+		{7244437C-152B-4CC4-8821-DEC164908401}.Debug|x86.ActiveCfg = Debug|Win32
+		{7244437C-152B-4CC4-8821-DEC164908401}.Debug|x86.Build.0 = Debug|Win32
+		{7244437C-152B-4CC4-8821-DEC164908401}.Release|x64.ActiveCfg = Release|x64
+		{7244437C-152B-4CC4-8821-DEC164908401}.Release|x64.Build.0 = Release|x64
+		{7244437C-152B-4CC4-8821-DEC164908401}.Release|x86.ActiveCfg = Release|Win32
+		{7244437C-152B-4CC4-8821-DEC164908401}.Release|x86.Build.0 = Release|Win32
+		{BE0629D8-7151-4ABC-AABF-8D88C1C5A969}.Debug|x64.ActiveCfg = Debug|x64
+		{BE0629D8-7151-4ABC-AABF-8D88C1C5A969}.Debug|x64.Build.0 = Debug|x64
+		{BE0629D8-7151-4ABC-AABF-8D88C1C5A969}.Debug|x86.ActiveCfg = Debug|Win32
+		{BE0629D8-7151-4ABC-AABF-8D88C1C5A969}.Debug|x86.Build.0 = Debug|Win32
+		{BE0629D8-7151-4ABC-AABF-8D88C1C5A969}.Release|x64.ActiveCfg = Release|x64
+		{BE0629D8-7151-4ABC-AABF-8D88C1C5A969}.Release|x64.Build.0 = Release|x64
+		{BE0629D8-7151-4ABC-AABF-8D88C1C5A969}.Release|x86.ActiveCfg = Release|Win32
+		{BE0629D8-7151-4ABC-AABF-8D88C1C5A969}.Release|x86.Build.0 = Release|Win32
+		{AC00B7FC-7835-4195-8629-B3D476F02B2D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AC00B7FC-7835-4195-8629-B3D476F02B2D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AC00B7FC-7835-4195-8629-B3D476F02B2D}.Release|x64.ActiveCfg = Release|Any CPU
+		{AC00B7FC-7835-4195-8629-B3D476F02B2D}.Release|x86.ActiveCfg = Release|Any CPU
+		{A85C6996-8351-44AD-B375-BE7A0D4545D6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A85C6996-8351-44AD-B375-BE7A0D4545D6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A85C6996-8351-44AD-B375-BE7A0D4545D6}.Release|x64.ActiveCfg = Release|Any CPU
+		{A85C6996-8351-44AD-B375-BE7A0D4545D6}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {361D283D-93A0-490A-A45A-2E28D82DB382}
+	EndGlobalSection
+EndGlobal
