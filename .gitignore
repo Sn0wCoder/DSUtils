@@ -1,0 +1,15 @@
+**/x64/
+**/Release/
+*.obj
+*.pdb
+*.iobj
+*.ipdb
+*.tlog
+*.recipe
+*.lastbuildstate
+*.vs
+*.user
+*.exe
+**/__pycache__/
+*.pyc
+*.zip
