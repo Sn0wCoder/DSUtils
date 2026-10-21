@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ac00b7fc-7835-4195-8629-b3d476f02b2d}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>DSCreateKey.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>DSCreateKeyPy</Name>
+    <RootNamespace>DSCreateKeyPy</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>TestAuth</CommandLineArguments>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' " />
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' " />
+  <ItemGroup>
+    <Compile Include="DSCreateKey.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
